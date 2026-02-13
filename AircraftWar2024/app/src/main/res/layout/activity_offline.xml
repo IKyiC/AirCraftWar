@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OfflineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单机模式难度选择"
+            android:layout_gravity="center"
+            android:layout_marginTop="180dp"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/easy_btn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/EasyGame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/medium_btn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/MediumGame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/hard_btn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/HardGame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
